@@ -1,0 +1,275 @@
+.new-collection__btn-catalog, .main__subheading, .main__head .sub-head, .header__navigation a, .header .header-container__sign a, .header .header-container__schedule {
+  font-family: PT Sans;
+  font-style: normal;
+  font-weight: normal;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.card-watch__name {
+  font-family: Playfair Display;
+  font-style: normal;
+  font-weight: normal;
+}
+
+.card-watch__price, .block-heading__title {
+  font-family: Playfair Display;
+  font-style: normal;
+  font-weight: bold;
+}
+
+.block-heading__title, .new-collection__btn-catalog, .main__subheading, .main__head .sub-head {
+  text-transform: uppercase;
+}
+
+a, button {
+  cursor: pointer;
+}
+
+.header__timework {
+  height: 44px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #000000;
+}
+
+.header__navigation {
+  height: 80px;
+  background-color: #0F0F0F;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.header .header-container {
+  box-sizing: border-box;
+  margin: auto;
+  display: flex;
+  max-width: 1105px;
+}
+
+.header .header-container__our-contact {
+  display: flex;
+  margin-right: 580px;
+}
+
+.header .header-container__schedule {
+  color: #969696;
+  font-size: 12px;
+  line-height: 16px;
+}
+
+.header .header-container__phone {
+  margin-right: 16.31px;
+}
+
+.header .header-container__phone img {
+  height: 13.33px;
+  width: 13.36px;
+}
+
+.header .header-container__sign a {
+  margin-left: 14.37px;
+  text-decoration: none;
+  font-size: 12px;
+  line-height: 16px;
+  color: #969696;
+}
+
+.header__navigation .container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 1105px;
+}
+
+.header__navigation .container .container img {
+  height: 49px;
+  width: 104px;
+}
+
+.header__navigation nav {
+  margin-left: 469px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header__navigation a img {
+  height: 16.5015449524px;
+  width: 16.5015449524px;
+}
+
+.header__navigation a {
+  display: block;
+  margin: 31px 20px;
+  font-size: 14px;
+  line-height: 18px;
+  align-items: center;
+  text-align: center;
+  text-decoration: none;
+  color: #969696;
+}
+
+.main {
+  background: url("background-main.0880ca11.png") no-repeat center;
+  background-size: cover;
+  height: 810px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.main .container {
+  display: flex;
+  max-width: 730px;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin: auto;
+}
+
+.main__head {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 320px;
+  height: 320px;
+  border: 4px solid #FFFFFF;
+  margin-bottom: 80px;
+}
+
+.main__head .sub-head {
+  margin-top: 7px;
+  color: #FFFFFF;
+}
+
+.main__head img {
+  width: 185px;
+  height: 86px;
+  margin-bottom: 4px;
+}
+
+.main__subheading {
+  color: #FFFFFF;
+  font-size: 16px;
+  line-height: 150%;
+}
+
+.devider {
+  width: 179px;
+  height: 2px;
+  background-color: #FFFFFF;
+}
+
+.new-collection {
+  display: flex;
+}
+
+.new-collection__season2020 {
+  display: flex;
+  background-color: #000000;
+  max-width: 1040px;
+}
+
+.new-collection__season2020 .container {
+  margin: 93px 80px 0px;
+}
+
+.new-collection__season2020 .container .block-heading__title {
+  margin-bottom: 50px;
+}
+
+.new-collection__season2020 .container .container__collection {
+  margin-top: 50px;
+}
+
+.new-collection__season2020 .container__collection {
+  display: flex;
+  flex: 0 1 33.33%;
+}
+
+.new-collection__season2020 .container__collection .card-watch {
+  margin-right: 50px;
+}
+
+.new-collection__season2020 .container__collection .card-watch:last-child {
+  margin: 0px;
+}
+
+.new-collection__catalog {
+  background: url("man-with-watch.b768952f.png") no-repeat center;
+  background-size: cover;
+  width: 100%;
+  height: 730px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: end;
+}
+
+.new-collection__catalog .block-heading__title {
+  margin-bottom: 30px;
+}
+
+.new-collection__btn-catalog {
+  background: transparent;
+  color: white;
+  height: 47px;
+  width: 138px;
+  text-align: center;
+  font-size: 18px;
+  line-height: 23px;
+  border: 1px solid #FFFFFF;
+  margin: 30px 0px 100px 0px;
+}
+
+.block-heading {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.block-heading__title {
+  color: #FFFFFF;
+  font-size: 36px;
+  line-height: 48px;
+}
+
+.card-watch {
+  display: flex;
+  flex-direction: column;
+}
+
+.card-watch__image {
+  background-color: #191B1C;
+}
+
+.card-watch__image img {
+  width: 215px;
+  height: 214px;
+  margin: 55px 22px 56px 23px;
+}
+
+.card-watch__info {
+  margin-top: 25px;
+  display: flex;
+  align-items: start;
+  flex-direction: column;
+}
+
+.card-watch__name {
+  font-size: 18px;
+  line-height: 24px;
+  color: #FFFFFF;
+  margin-bottom: 10px;
+}
+
+.card-watch__price {
+  color: #D0D0D0;
+  font-size: 16px;
+  line-height: 21px;
+}
+/*# sourceMappingURL=index.de7da63a.css.map */
