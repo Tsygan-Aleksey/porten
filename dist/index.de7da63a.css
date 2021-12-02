@@ -178,25 +178,10 @@ a, button {
   margin: 93px 80px 0px;
 }
 
-.new-collection__season2020 .container .block-heading__title {
-  margin-bottom: 50px;
-}
-
-.new-collection__season2020 .container .container__collection {
-  margin-top: 50px;
-}
-
 .new-collection__season2020 .container__collection {
+  margin-top: 50px;
   display: flex;
   flex: 0 1 33.33%;
-}
-
-.new-collection__season2020 .container__collection .card-watch {
-  margin-right: 50px;
-}
-
-.new-collection__season2020 .container__collection .card-watch:last-child {
-  margin: 0px;
 }
 
 .new-collection__catalog {
@@ -208,10 +193,6 @@ a, button {
   align-items: center;
   flex-direction: column;
   justify-content: end;
-}
-
-.new-collection__catalog .block-heading__title {
-  margin-bottom: 30px;
 }
 
 .new-collection__btn-catalog {
@@ -238,9 +219,21 @@ a, button {
   line-height: 48px;
 }
 
+.block-heading__title_mb-50 {
+  margin-bottom: 50px;
+}
+
+.block-heading__title_mb-30 {
+  margin-bottom: 30px;
+}
+
 .card-watch {
   display: flex;
   flex-direction: column;
+}
+
+.card-watch_mr-50 {
+  margin-right: 50px;
 }
 
 .card-watch__image {
